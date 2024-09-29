@@ -1,0 +1,335 @@
+.travellogo{
+    font-size: 60px;
+    color: rgb(34, 34, 12);
+}
+.logosmall{
+    font-size: 15px;
+}
+
+
+/* part1 */
+#part1{
+    background-image: url(./src/assets/1000_F_489786772_eYkophFPdr5AjuThYslXh7jmmHgzCzGl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+ background-attachment:fixed ;
+ position: relative;
+}
+.part1head{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 1000;
+   right: 20vh;
+   bottom: 30vh;
+}
+#bukton{
+    position: absolute;
+    bottom: 40px;
+    right: 45%;
+    font-size: 25px;
+}
+.part1span{
+font-family: "Playwrite BE VLG", cursive;
+}
+
+
+
+/* part2 */
+/*    <!-- 1card / HONEYMOON PACKAGES--> */
+#packageoff{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.po-head{
+    text-align: center;
+}
+
+.po-card{
+    padding: 40px;
+    gap: 20px;
+}
+.po-card2{
+    text-align: center;
+    /* box-shadow: 5px 5px 5px  lightblue; */
+}
+.card1btn{
+    text-decoration: none; 
+       color: white;
+       border: solid 1px;
+       width: 30px;
+       border-radius: 5px;
+       border-color: blue;
+       background-color: blue;
+       padding: 5px;
+
+  }
+  .morebtn{
+    padding: 40px;
+    text-align: center;
+    
+
+}
+.more1btn{
+  text-decoration: none; 
+     color: white;
+     border: solid 1px;
+     width: 30px;
+     border-color: blueviolet;
+     border-radius: 30px;
+     background-color: blueviolet;
+     padding: 5px;
+
+}
+.po-card2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgb(79, 76, 247)); */
+}
+.more1btn:hover{
+    background-color: rgb(226, 43, 43);
+    /* background-image: linear-gradient(to bottom ,rgb(255, 255, 255),rgb(79, 76, 247)); */
+}
+
+/* part3 */
+#part3{
+    display: flex;
+    flex-direction: column;
+}
+#part3carosel{
+    margin-top: 50px;
+}
+#part3carosel img{
+height: 600px;}
+
+
+.skftpart2{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skftvideo{
+    width: 400px;
+}
+.skftvideo img{
+   width:100%;
+}
+
+@media(max-width:600){
+    .skftvideo {
+        width:200px;
+     }
+}
+
+
+/* part4 */
+.part4{
+    margin-top: 50px;
+}
+.part4pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    /* height: 60%; */
+    position: relative;
+}
+.part4pic{
+    width: 270px;
+    height: 270px;
+    border: solid black 1px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.part4pics img{
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    border-radius: 20px;
+    left: 22px;
+    top: 22px;
+
+}
+.part4overlap{
+
+    width: 225px;
+    height: 225px;
+    left: 22px;
+    top: 22px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(84, 187, 255, 0.537);
+    text-align: center;
+    display: none;
+}
+.part4overlap h1{
+    margin-top: 50px;
+}
+.part4overlap button{
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+
+}
+.part4pic:hover .part4overlap{
+    display: block;
+}
+
+
+/* part5 */
+.part5{
+    margin-top: 70px;
+}
+.po-head h2{
+    font-size: 12px;
+    color: red;
+    font-family: "Playwrite BE VLG", cursive;
+
+}
+.part5pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    /* height: 60%; */
+    position: relative;
+}
+.part5pic{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    background-color: rgba(189, 188, 188, 0.427);
+    border: solid 1px rgb(189, 188, 188);
+    
+}
+.part5pics img{
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    border-radius: 50%;
+    left: 20%;
+    top: 22px;
+
+}
+.part5overlap{
+    padding-top: 180px;
+    bottom: 22px;
+}
+.part5overlap h1{
+    text-align: center;
+font-size: 20px;
+z-index: 10;
+
+}
+
+ .part5overlap a
+    {
+        display: inline-block;
+        font-size: 18px;
+        color: violet;
+  }
+
+  /* part6 */
+  .part6{
+    margin-top: 50px;
+    background-color: rgba(241, 241, 241, 0.845);
+  }
+  .part6 h2 {
+    color: red;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .part6pics{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+  }
+  .part6pic{
+    width: 400px;
+  }
+  .part6pic img{
+    width: 100%;
+    position: relative;
+
+  }
+  .part6pic h1{
+    font-weight: 600;
+    font-size: 17px;
+  text-align: center;
+
+  }
+  .part6pic p{
+text-align: center;
+  }
+
+
+
+  
+/* footer */
+footer{
+    background-color: rgb(38, 40, 47);
+    width: 100%;
+    height: 350px;
+    margin-top: 60px;
+    height: fit-content;
+
+}
+.parent{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border-top: solid 1px rgb(228, 227, 227);
+    padding-top: 20px;
+    /* background-color: rgb(38, 40, 47); */
+
+}
+
+
+
+.child{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #ffee03;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.ftr{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-size: 15px;
+}
+.brands{
+    color: white;
+}
+.child img{
+    width: 170px;
+}
+.child h2{
+font-size: 23px;}
+.child2{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
